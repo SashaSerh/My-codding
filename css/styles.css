@@ -10,5 +10,7 @@
     background-color: #FFC41E;
 }
 .site-nav > li a {
-    
+    background-image: -moz-element(
+        
+    );
 }
