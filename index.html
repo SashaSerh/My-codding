@@ -7,11 +7,14 @@
     <title lang="eu">Expoforum</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href=""
-    >
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    <link rel="stylesheet" href="" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Roboto+Condensed:wght@700&display=swap"
       rel="stylesheet"
@@ -21,7 +24,9 @@
   <body class="page">
     <header class="page-heder">
       <nav class="page-nav">
-        <a class="logo" href="index.html"> <img src="./images-logo/logo1.svg" alt="логотип-компании" />LOGONAV</a>
+        <a class="logo" href="index.html">
+          <img src="./images-logo/logo1.svg" alt="логотип-компании" />LOGONAV</a
+        >
         <ul class="site-nav">
           <li class="list-nav"><a class="list-link" href="">О комплексе</a></li>
           <li class="list-nav"><a class="list-link" href="">О компании</a></li>
@@ -38,8 +43,188 @@
     </header>
 
     <main>
+      <!DOCTYPE html>
+      <html lang="en-US">
+        <head>
+          <meta charset="utf-8" />
+          <title>My test page</title>
+        </head>
+        <body>
+          <p>This is my page</p>
+        </body>
+      </html>
+
+      <form class="form" action="">
+        <div class="" role="group" aria-labelledby="text-head">
+          <label class="text" for="text">Имя</label>
+          <input type="text" id="text" placeholder="Иван Иванович" />
+          <span class="text-icon"></span>
+        </div>
+
+        <label class="tel" for="tel">Телефон</label>
+        <input type="tel" id="tel" placeholder="054-123-456-78" />
+        <span class="tel-icon"></span>
+
+        <label class="mail" for="mail">Почта</label>
+        <input type="email" id="mail" placeholder="sdms@mail.com" />
+        <span class=""></span>
+
+        <label for="password">Пароль</label>
+        <input type="password" id="password" placeholder="password" />
+        <span class=""></span>
+
+        <label class="radio" for="radio">Радио</label>
+        <input type="radio" name="rad" id="radio" />
+        <input type="radio" name="rad" id="radio" />
+        <input type="radio" name="rad" id="radio" />
+        <input type="radio" name="rad" id="radio" />
+
+        <label class="checkbox" name="" value="" for="checkbox">Чекбокс</label>
+        <input type="checkbox" name="checkbox" value="checkbox" id="checkbox" />
+        <input type="checkbox" name="checkbox" value="checkbox" id="checkbox" />
+        <input type="checkbox" name="checkbox" value="checkbox" id="checkbox" />
+        <input type="checkbox" name="checkbox" value="checkbox" id="checkbox" />
+
+        <label class="select" for="select">select</label>
+        <select name="select" id="select">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3" selected>3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+        </select>
+
+        <label for="size">Size</label>
+        <select id="size" name="size">
+          <option value="xs">Extra Small</option>
+          <option value="s">Small</option>
+          <option value="m" selected>Medium</option>
+          <option value="l">Large</option>
+        </select>
+
+        <label for="month">Month</label>
+        <select name="month" id="month">
+          <optgroup label="Summer">
+            <option value="s6">June</option>
+            <option value="s7">July</option>
+            <option value="s8">August</option>
+          </optgroup>
+
+          <optgroup label="Autumn">
+            <option value="s9">September</option>
+            <option value="s10">October</option>
+            <option value="s11">November</option>
+          </optgroup>
+        </select>
+        <textarea
+          name="feedback"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="оставь свой отзыв"
+        ></textarea>
+        <form class="form">
+          <div
+            class="form-group"
+            role="group"
+            aria-labelledby="contact-details-head"
+          >
+            <p id="contact-details-head">Enter your contact details</p>
+            <label>
+              Name
+              <input type="text" name="username" />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" />
+            </label>
+          </div>
+
+          <div class="form-group" role="group" aria-labelledby="language-head">
+            <p id="language-head">Your favourite programming language</p>
+            <label>
+              <input type="checkbox" name="language" value="python" />
+              Python
+            </label>
+            <label>
+              <input type="checkbox" name="language" value="js" />
+              JavaScript
+            </label>
+            <label>
+              <input type="checkbox" name="language" value="ruby" />
+              Ruby
+            </label>
+          </div>
+
+          <div
+            class="form-group"
+            role="group"
+            aria-labelledby="newsletter-head"
+          >
+            <p id="newsletter-head">I want to receive</p>
+            <label>
+              <input type="checkbox" name="newsletter" value="weekly" />
+              The weekly newsletter
+            </label>
+            <label>
+              <input type="checkbox" name="newsletter" value="company_offers" />
+              Offers from the company
+            </label>
+            <label>
+              <input
+                type="checkbox"
+                name="newsletter"
+                value="associated_offers"
+              />
+              Offers from associated companies
+            </label>
+          </div>
+
+          <button type="submit">Subscribe</button>
+        </form>
+
+        Resources
+        <button type="submit">кнопка</button>
+      </form>
+
       <div class="outer-box">
-        <div class="inner-box"></div>
+        <div class="outer-box_inner-box">
+          <span class="outer-box_text"><h1>rotate3D</h1></span>
+        </div>
+      </div>
+
+      <div class="outer-box">
+        <div class="outer-box_inner-box3D">
+          <span class="outer-box_text"><h1>translate</h1></span>
+        </div>
+      </div>
+
+      <div class="outer-box">
+        <h1>
+          transition: all 0.8s ease 0s; <br />
+          transform: -------
+        </h1>
+        <div class="outer-box_inner-box7">
+          <span class="outer-box_text"
+            ><h1>transform-origin: top left</h1></span
+          >
+        </div>
+        <div class="outer-box_inner-box6">
+          <span class="outer-box_text"><h1>skew</h1></span>
+        </div>
+        <div class="outer-box_inner-box5">
+          <span class="outer-box_text"><h1>rotate</h1></span>
+        </div>
+        <div class="outer-box_inner-box4">
+          <span class="outer-box_text"><h1>scale</h1></span>
+        </div>
+        <div class="outer-box_inner-box3">
+          <span class="outer-box_text"><h1>scale</h1></span>
+        </div>
+        <div class="outer-box_inner-box2">
+          <span class="outer-box_text"><h1>scale</h1></span>
+        </div>
       </div>
       <!-- ====================== -->
       <div class="box1">botton1</div>
@@ -96,13 +281,12 @@
       <section class="section backgraund">
         <ul>
           <h2 class="section-title">Организаторам</h2>
-            <li><a href="">Документы организаторам</a></li>
-            <li><a href="">Услуги организаторам</a></li>
-            <li><a href="">Выставочные площади</a></li>
-            <li><a href="">Рестораны и кафе</a></li>
-            <li><a href="">Конгресс-центр</a></li>
-            <li><a href="">Спорт-центр</a></li>
-          
+          <li><a href="">Документы организаторам</a></li>
+          <li><a href="">Услуги организаторам</a></li>
+          <li><a href="">Выставочные площади</a></li>
+          <li><a href="">Рестораны и кафе</a></li>
+          <li><a href="">Конгресс-центр</a></li>
+          <li><a href="">Спорт-центр</a></li>
         </ul>
 
         <ul>
@@ -133,15 +317,54 @@
       <section class="section backgraund-color-section-two">
         <h2 class="sektion-title">Текущие и будущие мероприятия</h2>
         <a href="">Все мероприятия</a>
-        <Ul>
-          <li><img src="./images/Rectangle8.jpg" alt=""><p>2 января 2020 г. – 7 января 2020 г.</p><h3>ЭКСПО ЕЛКА</h3><p>Парк интерактивных развлечений</p></li>
-          <li><img src="./images/Rectangle8(1).jpg" alt=""><p>5 февраля 2020 г. – 9 февраля 2020 г.</p><h3>Junwex Петербург</h3><p>Выставка ювелирных изделий</p></li>
-          <li><img src="./images/Rectangle8(2).jpg" alt=""><p>7 февраля 2020 г. – 9 февраля 2020 г.</p><h3>Невский ларец</h3><p>Выставка-ярмарка народных художественных
-          промыслов и ремесел</p></li>
-          <li><img src="./images/Rectangle8(3).jpg" alt=""><p>14 февраля 2020 г. – 23 февраля 2020 г.</p><h3>ПОНАЕХАЛИ!</h3><p>Специализированная арт-ярмарка</p></li>
-          <li><img src="./images/Rectangle8(4).jpg" alt=""><p>18 февраля 2020 г. – 21 февраля 2020 г.</p><h3>VET.CAMP</h3><p>Конференция для ветеринарных врачей</p></li>
-          <li><img src="./images/Rectangle8(5).jpg" alt=""><p>26 февраля 2020 г. – 28 февраля 2020 г.</p><h3>ExpoHoReCa</h3><p>Специализированная выставка</p></li>
-        </Ul>
+        <ul>
+          <li>
+            <div class="thumb">
+              <img class="img" src="./images/Rectangle8.jpg" alt="" />
+
+              <div class="paragr-box">
+                <p class="pe">2 января 2020 г. – 7 января 2020 г.</p>
+              </div>
+            </div>
+            <h3 class="h3">ЭКСПО ЕЛКА</h3>
+
+            <p class="pe">Парк интерактивных развлечений</p>
+          </li>
+
+          <li>
+            <div class="box">
+              <img class="img" src="./images/Rectangle8(1).jpg" alt="" />
+            </div>
+            <p>5 февраля 2020 г. – 9 февраля 2020 г.</p>
+            <h3>Junwex Петербург</h3>
+
+            <p>Выставка ювелирных изделий</p>
+          </li>
+          <li>
+            <img class="img" src="./images/Rectangle8(2).jpg" alt="" />
+            <p>7 февраля 2020 г. – 9 февраля 2020 г.</p>
+            <h3>Невский ларец</h3>
+            <p>Выставка-ярмарка народных художественных промыслов и ремесел</p>
+          </li>
+          <li>
+            <img class="img" src="./images/Rectangle8(3).jpg" alt="" />
+            <p>14 февраля 2020 г. – 23 февраля 2020 г.</p>
+            <h3>ПОНАЕХАЛИ!</h3>
+            <p>Специализированная арт-ярмарка</p>
+          </li>
+          <li>
+            <img class="img" src="./images/Rectangle8(4).jpg" alt="" />
+            <p>18 февраля 2020 г. – 21 февраля 2020 г.</p>
+            <h3>VET.CAMP</h3>
+            <p>Конференция для ветеринарных врачей</p>
+          </li>
+          <li>
+            <img class="img" src="./images/Rectangle8(5).jpg" alt="" />
+            <p>26 февраля 2020 г. – 28 февраля 2020 г.</p>
+            <h3>ExpoHoReCa</h3>
+            <p>Специализированная выставка</p>
+          </li>
+        </ul>
       </section>
     </main>
     <footer>
@@ -158,7 +381,6 @@
         <li class="links">
           <h3>Экспонентам</h3>
           <ul>
-            
             <li><a href=""></a></li>
             <li><a href=""></a></li>
             <li><a href=""></a></li>
